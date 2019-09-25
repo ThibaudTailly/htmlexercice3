@@ -1,0 +1,50 @@
+h1 {
+    font-family: arial;
+    display: inline-block;
+}
+
+div.identite {
+    background-color: blue;
+    position: relative;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+div.identite h1 {
+    position: absolute;
+    top: -45px;
+    background-color: blue;
+    margin-left: 20px;
+}
+
+.no_bullets {
+    list-style-type: none;
+}
+
+div.livraison {
+    background-color: violet;
+    position: relative;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+div.livraison h1 {
+    position: absolute;
+    top: -45px;
+    background-color: violet;
+    margin-left: 20px;
+}
+
+div.reglement {
+    background-color: red;
+    position: relative;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+div.reglement h1 {
+    position: absolute;
+    top: -45px;
+    background-color: red;
+    margin-left: 20px;
+}

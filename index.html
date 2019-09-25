@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="identite">
+        <h1>votre identité</h1>
+        <ol class="labels">
+            <li><label>Nom: </label><input type="text" id="Nom" name="Nom" placeholder="Nom" /></li>
+            <li><label>Prenom: </label><input type="text" id="Prenom" name="prenom" placeholder="prenom" /></li>
+            <li><label>Adressemail: </label><input type="text" id="adressemail" name="adressemail" placeholder="adressemail" /></li>
+        </ol>
+    </div>
+    <div class="livraison">
+        <h1>Adresse de livraison</h1>
+        <ol class="labels1">
+            <li><label>adresse: </label><textarea id="story" name="story" rows="5" cols="33"></textarea></li>
+            <li><label>code postal: </label><input type="text" id="code postal" name="code postal" placeholder="code postal" /></li>
+            <li><label>Ville: </label><input type="text" id="Ville" name="Ville" placeholder="Ville" /></li>
+        </ol>
+    </div>
+    <div class="reglement">
+        <h1>Informations de réglement</h1>
+        <ol class="labels2">
+            <li><label>type de carte bancaire:</label>
+                <ul class="no_bullets">
+                    <li><input type="radio" id="VISA" name="CBT" />Visa </li>
+                    <li><input type="radio" id="MASTER" name="CBT" />Master</li>
+                </ul>
+            </li>
+            <li><label>Numero de carte: </label><input type="text" id="Prenom" name="prenom" placeholder="Numero de carte" />
+            </li>
+            <li><label>code de sécurité: </label><input type="text" id="codeSécurité" name="codeSécurité" placeholder="codeSécurité" /></li>
+            <li><label>Nom du titulaire: </label><input type="text" id="Nom du titulaire" name="Nom du titulaire" placeholder="Nom du titulaire" /></li>
+        </ol>
+    </div>
+    <input type="button" value="j'achete">
+</body>
+
+</html>
