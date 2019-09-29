@@ -1,0 +1,48 @@
+div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.identite {
+    background-color: #2574a9;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.adresse {
+    background-color: #9a12b3;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.carte {
+    background-color: #db0a5b;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+mark {
+    margin-left: 28px;
+}
+
+button {
+    margin-left: 20px;
+}
+
+.identitemark {
+    background-color: #2574a9;
+}
+
+.adressemark {
+    background-color: #9a12b3;
+}
+
+.cartemark {
+    background-color: #db0a5b;
+}

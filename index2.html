@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="fr">
+
+<head>
+    <title>Formulaire</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href=style2.css>
+</head>
+
+<body>
+    <!--<s action="/my-handling-form-page" method="post">-->
+
+    <mark class="identitemark"> Votre identité </mark>
+    <div class="identite">
+        <form>
+            1. Nom :<input type="text" id="name" name="user_name" placeholder="Nom" /><br /> 2. Prénom :<input type="text" id="surname" name="user_name" placeholder="Prénom" /><br /> 3. E-mail :<input type="email" id="mail" name="user_mail" placeholder="E-mail"
+            /><br />
+        </form>
+    </div>
+    <mark class="adressemark"> Adresse de livraison </mark>
+    <div class="adresse">
+        <form>
+            1. Adresse :<textarea cols="20" rows="4"></textarea><br /> 2. Code postal :<input type="text" id="code" name="user_code" placeholder="Code postal" /><br /> 3. Ville :<input type="text" id="ville" name="user_city" placeholder="Ville" /><br
+            />
+
+        </form>
+    </div>
+    <mark class="cartemark"> Informations de reglement </mark>
+    <div class="carte">
+        <form>
+            1. Type de carte bancaire :<br />
+            <input type="radio" name="Visa" value="1" />Visa<br />
+            <input type="radio" name="Visa" value="2" />Mastercard<br /> 2. Numéro de carte :<input type="text" id="numCart" name="user_numCart" placeholder="Numéro de carte" /><br /> 3. Code de sécurité :<input type="password" id="codCart" name="user_ncodCart"
+                placeholder="Code de sécurité" /><br /> 4. Nom du titulaire :<input type="text" id="nameCart" name="user_nameCart" placeholder="Nom du titulaire" /><br />
+        </form>
+    </div>
+    <button type="button"> J'achète !</button>
+
+</body>
+
+</html>
